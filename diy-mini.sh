@@ -72,6 +72,9 @@ git clone --depth=1 https://github.com/sbwml/luci-app-alist package/luci-app-ali
 #Mihomo
 git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo  package/luci-app-mihomo
 
+#Ddns-go
+git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
+
 # iStore
 git_sparse_clone main https://github.com/linkease/istore-ui app-store-ui
 git_sparse_clone main https://github.com/linkease/istore luci
