@@ -70,7 +70,7 @@ git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mo
 git clone --depth=1 https://github.com/sbwml/luci-app-alist package/luci-app-alist
 
 #Mihomo
-git clone https://$github/JohnsonRan/OpenWrt-mihomo  package/openwrt-mihomo
+git clone --depth=1 https://github/JohnsonRan/OpenWrt-mihomo  package/openwrt-mihomo
 
 # iStore
 git_sparse_clone main https://github.com/linkease/istore-ui app-store-ui
