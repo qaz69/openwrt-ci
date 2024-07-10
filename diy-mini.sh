@@ -70,7 +70,7 @@ git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mo
 git clone --depth=1 https://github.com/sbwml/luci-app-alist package/luci-app-alist
 
 # mihomo
-git clone https://$github/morytyann/OpenWrt-mihomo  package/new/openwrt-mihomo
+git clone https://$github/morytyann/OpenWrt-mihomo  package/openwrt-mihomo
 mkdir -p files/etc/mihomo/run/ui
 curl -Lso files/etc/mihomo/run/Country.mmdb https://$github/NobyDa/geoip/raw/release/Private-GeoIP-CN.mmdb
 curl -Lso files/etc/mihomo/run/GeoIP.dat https://$github/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat
