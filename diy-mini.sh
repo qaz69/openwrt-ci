@@ -70,7 +70,7 @@ git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mo
 git clone --depth=1 https://github.com/sbwml/luci-app-alist package/luci-app-alist
 
 # mihomo
-git clone --depth=1  https://github.com/morytyann/OpenWrt-mihomo  package/openwrt-mihomo
+git clone --depth=1  https://github.com/morytyann/OpenWrt-mihomo.git  package/luci-app-mihomo
 
 # Ddns-go
 git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
